@@ -1,7 +1,5 @@
 #!/bin/sh
 
-npm install
-
 cd public
 mkdir lib
 cd lib
