@@ -1,19 +1,22 @@
-# start-p5
+# start-p5 PUBLIC
 
-A template repository for setting up a local server and p5.js project.
+A template repository for setting up a local server and p5.js project. This branch has `public` files only. You may use [Atom](https://atom.io/) with [`atom-html-preview`](https://github.com/harmsk/atom-html-preview) to preview the sketch within the editor instead of setting up the local server yourself.
 
 ## Get Started
 
-0. Check if [Node.js](https://nodejs.org/en/) is installed. Open Terminal ([Mac](<https://en.wikipedia.org/wiki/Terminal_(macOS)>), [Windows](https://en.wikipedia.org/wiki/Windows_Terminal)), type in `node -v`, and press `return`. If you didn't see the version number, you need to download and install it using the [installer](https://nodejs.org/en/download/).
-1. Download (clone) this repository to your computer, change directory into it, and install dependencies.
+0. Install [Atom](https://atom.io/) and use its package installer to install **Preview HTML**.
+1. Download (clone) this repository to your computer.
 
 ```shell
-git clone https://github.com/peilingjiang/start-p5.git
-cd start-p5
-npm install
+git clone -b public https://github.com/peilingjiang/start-p5.git
 ```
 
-2. **(Optional)** Download the p5.js library files locally. Run the following command in Terminal. You can then go to `public/index.html` and comment out lines using CDN files and uncomment lines using local files.
+2. **(Optional)** Download the p5.js library files locally. Run the following command in Terminal. You can then go to `index.html` and comment out lines using CDN files and uncomment lines using local files.
+
+```shell
+# Change directory into the repository folder
+cd start-p5
+```
 
 ```shell
 # For Mac users
@@ -22,10 +25,4 @@ source setup.sh
 ./setup.sh
 ```
 
-3. Start the local server.
-
-```shell
-npm run server
-```
-
-4. Go to `localhost:8000` in the browser and you should see the sketch running. You can press `Ctrl + C` to end the server.
+3. Use **Preview HTML** to preview the sketch inside the editor
