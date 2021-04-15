@@ -1,0 +1,25 @@
+{
+  "name": "start-p5",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "A template repository for setting up a local server and p5.js project.",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peilingjiang/start-p5.git"
+  },
+  "keywords": [
+    "p5.js"
+  ],
+  "author": "Peiling Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peilingjiang/start-p5/issues"
+  },
+  "homepage": "https://github.com/peilingjiang/start-p5#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
