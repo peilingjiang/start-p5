@@ -28,4 +28,4 @@ source setup.sh
 npm run server
 ```
 
-4. Go to `localhost:8000` in the browser and you should see the sketch running. You can press `Ctrl + C ` to end the server.
+4. Go to `localhost:8000` in the browser and you should see the sketch running. You can press `Ctrl + C` to end the server.
